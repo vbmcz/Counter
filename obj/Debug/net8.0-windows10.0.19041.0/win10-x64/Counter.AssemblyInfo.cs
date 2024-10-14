@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Counter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+da60f56e94a02bcdd968caf0fc82b106127924f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+164d8e1ba956e9888c0362e60454f587eccc2a4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Counter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Counter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
