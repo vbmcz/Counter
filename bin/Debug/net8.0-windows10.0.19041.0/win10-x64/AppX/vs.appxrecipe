@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\Alan Szymczyk\source\repos\Counter\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-14T09:50:13.352</Modified>
+      <Modified>2024-10-15T15:24:05.343</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Alan Szymczyk\source\repos\Counter\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-14T09:50:13.003</Modified>
+      <Modified>2024-10-15T15:17:29.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alan Szymczyk\source\repos\Counter\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Counter.runtimeconfig.json">
       <PackagePath>Counter.runtimeconfig.json</PackagePath>
-      <Modified>2024-10-03T08:34:33.985</Modified>
+      <Modified>2024-10-15T15:03:51.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alan Szymczyk\source\repos\Counter\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Counter.dll">
       <PackagePath>Counter.dll</PackagePath>
-      <Modified>2024-10-14T09:50:09.315</Modified>
+      <Modified>2024-10-15T15:24:04.670</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alan Szymczyk\source\repos\Counter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Counter.exe</PackagePath>
-      <Modified>2024-10-14T09:50:09.496</Modified>
+      <Modified>2024-10-15T15:24:04.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alan Szymczyk\source\repos\Counter\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -287,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alan Szymczyk\source\repos\Counter\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Counter.deps.json">
       <PackagePath>Counter.deps.json</PackagePath>
-      <Modified>2024-10-14T09:50:12.566</Modified>
+      <Modified>2024-10-15T15:03:50.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alan Szymczyk\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

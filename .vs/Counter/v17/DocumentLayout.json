@@ -1,12 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|c:\\users\\alan szymczyk\\source\\repos\\counter\\models\\allcounters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|solutionrelative:models\\allcounters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|c:\\users\\alan szymczyk\\source\\repos\\counter\\views\\allcounterspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|solutionrelative:views\\allcounterspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AllCounters.cs",
+              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Models\\AllCounters.cs",
+              "RelativeDocumentMoniker": "Models\\AllCounters.cs",
+              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Models\\AllCounters.cs",
+              "RelativeToolTip": "Models\\AllCounters.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAIwCMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:48:41.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AllCountersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Views\\AllCountersPage.xaml",
+              "RelativeDocumentMoniker": "Views\\AllCountersPage.xaml",
+              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Views\\AllCountersPage.xaml",
+              "RelativeToolTip": "Views\\AllCountersPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-15T14:48:29.619Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
