@@ -7,43 +7,47 @@ using Counter.Views;
 
 namespace Counter.Models
 {
-    class AllCounters : Page
+    class AllCounters : ContentPage
     {
 
-        public AllCounters() {
-            CreateButton();
+        public AllCounters()
+        {
+            this.CreateButton();
         }
 
 
         private void CreateButton()
         {
-            int counter = 0;
+			int counter = 0;
 
-            var layout = new VerticalStackLayout();
+			Label label = new Label
+			{
+				Text = $"Counter: {counter}",
+			};
 
-            Label label = new Label
-            {
-                Text = $"Counter: {counter}",
-            };
+			Button button = new Button
+			{
+				Text = "OK",
+				Command = new Command(
+					execute: () =>
+					{
+						counter += 1;
+						label.Text = $"Counter: {counter}";
+					}
+				)
+			};
 
-            Button button = new Button
-            {
-                Text = "OK",
-                Command = new Command(
-                    execute: () =>
-                    {
-                        counter += 1;
-                        label.Text = $"Counter: {counter}";
-                    }
-                )
-            };
-            layout.Children.Add( label );
-            layout.Children.Add( button );
+			Label lblName = new Label
+			{
+				Text = "AA",
+			};
 
-            AllCountersPage allCountersPage = new()
-            {
-                Content = layout
-            };
+			BatchBegin();
+
+            Content = lblName;
+
+			BatchCommit();
+		
         }
         
     }
