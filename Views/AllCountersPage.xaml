@@ -8,4 +8,13 @@
     <ContentPage.BindingContext>
         <models:AllCounters/>
     </ContentPage.BindingContext>
+    <CollectionView>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Frame>
+                    
+                </Frame>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
 </ContentPage>
