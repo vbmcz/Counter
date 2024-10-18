@@ -7,8 +7,8 @@ using Counter.Views;
 
 namespace Counter.Models
 {
-    class AllCounters : ContentPage
-    {
+	internal class AllCounters : ContentPage
+	{
 
-    }
+	}
 }

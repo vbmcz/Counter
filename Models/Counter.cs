@@ -10,6 +10,6 @@ namespace Counter.Models
     {
         public string CounterName { get; set; }
         public int CounterValue { get; set; }
-        public Color CounterColor { get; set; }
+        public string CounterColor { get; set; }
     }
 }

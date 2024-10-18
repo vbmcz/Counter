@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\",
+  "WorkspaceRootPath": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|c:\\users\\alan szymczyk\\source\\repos\\counter\\models\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|solutionrelative:models\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|c:\\users\\komputer pc\\desktop\\programowanir\\c#\\project\\counter\\models\\allcounters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|solutionrelative:models\\allcounters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|c:\\users\\alan szymczyk\\source\\repos\\counter\\models\\allcounters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|solutionrelative:models\\allcounters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|c:\\users\\komputer pc\\desktop\\programowanir\\c#\\project\\counter\\models\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|solutionrelative:models\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Counter.cs",
-              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Models\\Counter.cs",
+              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\Models\\Counter.cs",
               "RelativeDocumentMoniker": "Models\\Counter.cs",
-              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Models\\Counter.cs",
+              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\Models\\Counter.cs",
               "RelativeToolTip": "Models\\Counter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAwAoAAAAIAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T08:02:11.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AllCounters.cs",
-              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Models\\AllCounters.cs",
+              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\Models\\AllCounters.cs",
               "RelativeDocumentMoniker": "Models\\AllCounters.cs",
-              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Models\\AllCounters.cs",
+              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\Models\\AllCounters.cs",
               "RelativeToolTip": "Models\\AllCounters.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T08:01:42.33Z",
               "EditorCaption": ""
