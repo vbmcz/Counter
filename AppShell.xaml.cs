@@ -5,6 +5,8 @@
         public AppShell()
         {
             InitializeComponent();
+
+            Routing.RegisterRoute(nameof(Views.CounterPage), typeof(Views.CounterPage));
         }
     }
 }

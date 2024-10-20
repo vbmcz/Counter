@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Counter.Views.CounterPage"
+             Title="CounterPage">
+
+    <VerticalStackLayout>
+
+        <Entry
+            Placeholder="Set counter name"
+            x:Name="CounterNameEditor"
+            Margin="20"
+        />
+
+        <Entry
+            Placeholder="Set default counter value"
+            x:Name="CounterDefaultEditor"
+            Margin="20"
+        />
+
+        <Picker x:Name="ColorPicker"
+                Title="Select counter color"
+                Margin="20">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>White</x:String>
+                    <x:String>Yellow</x:String>
+                    <x:String>Blue</x:String>
+                    <x:String>Red</x:String>
+                    <x:String>Beige</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Button
+            Text="Add counter"
+            Clicked="Add_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>

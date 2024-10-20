@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<counters>
+	<counter>
+		<CounterName>Name</CounterName>
+		<CounterDefaultValue>10</CounterDefaultValue>
+		<CounterColor>White</CounterColor>
+		<CounterValue>10</CounterValue>
+	</counter>
+</counters>

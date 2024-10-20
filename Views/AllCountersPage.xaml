@@ -8,12 +8,25 @@
     <ContentPage.BindingContext>
         <models:AllCounters/>
     </ContentPage.BindingContext>
-    <CollectionView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add counter" Clicked="Add_Clicked" IconImageSource="{FontImage Glyph='+', Color=Azure}"/>
+    </ContentPage.ToolbarItems>
+    <CollectionView x:Name="countersCollection" SelectionMode="Single" ItemsSource="{Binding Counters}">
+        <CollectionView.ItemsLayout>
+            <LinearItemsLayout Orientation="Vertical" ItemSpacing="10"/>
+        </CollectionView.ItemsLayout>
         <CollectionView.ItemTemplate>
             <DataTemplate>
-                <Frame>
-                    
-                </Frame>
+
+                <StackLayout 
+                    BackgroundColor="{Binding CounterColor}">
+                    <Label Text="{Binding CounterValue}" FontSize="22"/>
+                    <Button x:Name="incrementButton" Text="+" />
+                    <Button x:Name="decrementButton" Text="-" />
+                    <Button x:Name="deleteButton" Text="Delete counter" />
+                    <Button x:Name="resetButton" Text="Reset counter" />
+                </StackLayout>
+
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>
