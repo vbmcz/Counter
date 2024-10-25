@@ -20,11 +20,16 @@
 
                 <StackLayout 
                     BackgroundColor="{Binding CounterColor}">
-                    <Label Text="{Binding CounterValue}" FontSize="22"/>
-                    <Button x:Name="incrementButton" Text="+" />
-                    <Button x:Name="decrementButton" Text="-" />
-                    <Button x:Name="deleteButton" Text="Delete counter" />
-                    <Button x:Name="resetButton" Text="Reset counter" />
+                    <Label Text="{Binding CounterName}" FontSize="25" HorizontalTextAlignment="Center" TextColor="Black"/>
+                    <Label Text="{Binding CounterValue}" FontSize="22" TextColor="Black" HorizontalTextAlignment="Center"/>
+                    <HorizontalStackLayout
+                        Spacing="10"
+                        HorizontalOptions="CenterAndExpand">
+                        <Button WidthRequest="70" x:Name="incrementButton" Text="+" />
+                        <Button WidthRequest="70" x:Name="decrementButton" Text="-" />
+                        <Button WidthRequest="170" x:Name="deleteButton" Text="Delete counter" />
+                        <Button WidthRequest="170" x:Name="resetButton" Text="Reset counter" />
+                    </HorizontalStackLayout>
                 </StackLayout>
 
             </DataTemplate>

@@ -1,4 +1,3 @@
-
 namespace Counter.Views;
 
 public partial class AllCountersPage : ContentPage
@@ -17,10 +16,5 @@ public partial class AllCountersPage : ContentPage
     private async void Add_Clicked(object sender, EventArgs e)
 	{
 		await Shell.Current.GoToAsync(nameof(CounterPage));
-	}
-
-	private void IncrementButton_Clicked(object sender, EventArgs e)
-	{
-
 	}
 }

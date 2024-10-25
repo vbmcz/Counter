@@ -1,9 +1,21 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Counter>
-	<Counters>
-		<CounterName>Name</CounterName>
-		<CounterDefaultValue>10</CounterDefaultValue>
-		<CounterColor>White</CounterColor>
-		<CounterValue>10</CounterValue>
-	</Counters>
-</Counter>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Counters>
+  <Counter>
+    <CounterName>Counter1</CounterName>
+    <CounterValue>0</CounterValue>
+    <CounterColor>Blue</CounterColor>
+    <CounterDefaultValue>0</CounterDefaultValue>
+  </Counter>
+  <Counter>
+    <CounterName>Counter2</CounterName>
+    <CounterValue>10</CounterValue>
+    <CounterColor>Beige</CounterColor>
+    <CounterDefaultValue>10</CounterDefaultValue>
+  </Counter>
+  <Counter>
+    <CounterName>Counter3</CounterName>
+    <CounterValue>100</CounterValue>
+    <CounterColor>Red</CounterColor>
+    <CounterDefaultValue>100</CounterDefaultValue>
+  </Counter>
+</Counters>

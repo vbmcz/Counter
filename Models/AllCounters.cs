@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Counter.Views;
 using System.Collections.ObjectModel;
 using System.Xml.Serialization;
+using System.Xml.Linq;
 
 namespace Counter.Models
 {
@@ -20,13 +21,43 @@ namespace Counter.Models
 
 		public async void LoadCounters()
 		{
-			Counters.Clear();
+			if (Counters.Count != 0)
+				Counters.Clear();
 
-			using (FileStream fs = new(filePath, FileMode.Open))
+			XDocument doc = XDocument.Load(filePath);
+			Counter counter = new Counter();
+
+			foreach(var node in doc.Descendants())
+			{
+				switch(node.Name.ToString())
+				{
+					case "CounterName":
+						counter.CounterName = node.Value;
+						break;
+					case "CounterValue":
+						counter.CounterValue = int.Parse(node.Value);
+						break;
+					case "CounterColor":
+						counter.CounterColor = node.Value;
+						break;
+					case "CounterDefaultValue":
+						counter.CounterDefaultValue = int.Parse(node.Value);
+						break;
+					default:
+						break;
+				}
+				if(counter.CounterDefaultValue != null)
+                {
+					Counters.Add(counter);
+					counter = new Counter();
+                }
+			}
+
+			/*using (FileStream fs = new(filePath, FileMode.Open))
 			{
 				XmlSerializer serializer = new(typeof(Counter));
 				Counters = serializer.Deserialize(fs) as ObservableCollection<Counter>;
-            }
+            }*/
         }
 
 	}
