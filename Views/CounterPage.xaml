@@ -36,5 +36,10 @@
             Text="Add counter"
             Clicked="Add_Clicked"/>
 
+
+        <Label
+            Text=""
+            x:Name="ErrorLabel"/>
+
     </VerticalStackLayout>
 </ContentPage>

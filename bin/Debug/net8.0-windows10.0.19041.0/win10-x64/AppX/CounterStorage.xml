@@ -3,19 +3,13 @@
   <Counter>
     <CounterName>Counter1</CounterName>
     <CounterValue>0</CounterValue>
-    <CounterColor>Blue</CounterColor>
+    <CounterColor>Red</CounterColor>
     <CounterDefaultValue>0</CounterDefaultValue>
   </Counter>
   <Counter>
     <CounterName>Counter2</CounterName>
-    <CounterValue>10</CounterValue>
-    <CounterColor>Beige</CounterColor>
-    <CounterDefaultValue>10</CounterDefaultValue>
-  </Counter>
-  <Counter>
-    <CounterName>Counter3</CounterName>
-    <CounterValue>100</CounterValue>
-    <CounterColor>Red</CounterColor>
-    <CounterDefaultValue>100</CounterDefaultValue>
+    <CounterValue>0</CounterValue>
+    <CounterColor>White</CounterColor>
+    <CounterDefaultValue>0</CounterDefaultValue>
   </Counter>
 </Counters>

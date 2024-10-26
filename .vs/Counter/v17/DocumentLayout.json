@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\",
+  "WorkspaceRootPath": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\views\\allcounterspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|c:\\users\\komputer pc\\desktop\\programowanir\\c#\\project\\counter\\views\\allcounterspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|solutionrelative:views\\allcounterspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\views\\allcounterspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|solutionrelative:views\\allcounterspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\models\\allcounters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|c:\\users\\komputer pc\\desktop\\programowanir\\c#\\project\\counter\\models\\allcounters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|solutionrelative:models\\allcounters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\models\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|solutionrelative:models\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\views\\counterpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|c:\\users\\komputer pc\\desktop\\programowanir\\c#\\project\\counter\\views\\counterpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|solutionrelative:views\\counterpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\views\\counterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|solutionrelative:views\\counterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|c:\\users\\komputer pc\\desktop\\programowanir\\c#\\project\\counter\\resources\\raw\\counterstorage.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|solutionrelative:resources\\raw\\counterstorage.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|c:\\users\\komputer pc\\desktop\\programowanir\\c#\\project\\counter\\views\\allcounterspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE561417-2EEB-457C-8D03-C6CEA939147D}|Counter.csproj|solutionrelative:views\\allcounterspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "CounterPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Views\\CounterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\Views\\CounterPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\CounterPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Views\\CounterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\Views\\CounterPage.xaml.cs",
               "RelativeToolTip": "Views\\CounterPage.xaml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAUwBsAAAAKAAAA",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T08:55:49.123Z",
+              "WhenOpened": "2024-10-26T21:12:59.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CounterPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Views\\CounterPage.xaml",
-              "RelativeDocumentMoniker": "Views\\CounterPage.xaml",
-              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Views\\CounterPage.xaml",
-              "RelativeToolTip": "Views\\CounterPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-20T08:00:47.94Z",
+              "DocumentIndex": 3,
+              "Title": "CounterStorage.xml",
+              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\Resources\\Raw\\CounterStorage.xml",
+              "RelativeDocumentMoniker": "Resources\\Raw\\CounterStorage.xml",
+              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\Resources\\Raw\\CounterStorage.xml",
+              "RelativeToolTip": "Resources\\Raw\\CounterStorage.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-10-26T21:04:04.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AllCounters.cs",
+              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\Models\\AllCounters.cs",
+              "RelativeDocumentMoniker": "Models\\AllCounters.cs",
+              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\Models\\AllCounters.cs",
+              "RelativeToolTip": "Models\\AllCounters.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:01:42.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AllCountersPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Views\\AllCountersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\Views\\AllCountersPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\AllCountersPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Views\\AllCountersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\Views\\AllCountersPage.xaml.cs",
               "RelativeToolTip": "Views\\AllCountersPage.xaml.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAkwBMAAAAAAAAA",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwCoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T07:46:16.965Z",
+              "WhenOpened": "2024-10-26T19:37:09.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AllCountersPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Views\\AllCountersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\Views\\AllCountersPage.xaml",
               "RelativeDocumentMoniker": "Views\\AllCountersPage.xaml",
-              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Views\\AllCountersPage.xaml",
+              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project\\Counter\\Views\\AllCountersPage.xaml",
               "RelativeToolTip": "Views\\AllCountersPage.xaml",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAvwBkAAAAiAAAA",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-20T07:45:46.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Counter.cs",
-              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Models\\Counter.cs",
-              "RelativeDocumentMoniker": "Models\\Counter.cs",
-              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Models\\Counter.cs",
-              "RelativeToolTip": "Models\\Counter.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA0wBcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:02:11.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AllCounters.cs",
-              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Models\\AllCounters.cs",
-              "RelativeDocumentMoniker": "Models\\AllCounters.cs",
-              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\Counter\\Models\\AllCounters.cs",
-              "RelativeToolTip": "Models\\AllCounters.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABgAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:01:42.33Z",
               "EditorCaption": ""
             }
           ]

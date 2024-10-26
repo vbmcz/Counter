@@ -19,21 +19,5 @@ namespace Counter.Models
         public int CounterValue { get; set; }
         public string CounterColor { get; set; }
         public int? CounterDefaultValue { get; set; }
-
-        public void Increment()
-        {
-            this.CounterValue++;
-        }
-
-        public void Decrement()
-        {
-            this.CounterValue--;
-        }
-
-        public void Reset()
-        {
-            this.CounterValue = (int)this.CounterDefaultValue;
-        }
-
     }
 }

@@ -7,12 +7,17 @@ using Counter.Views;
 using System.Collections.ObjectModel;
 using System.Xml.Serialization;
 using System.Xml.Linq;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Counter.Models
 {
 	internal class AllCounters : ContentPage
 	{
-        public static string filePath = @"C:\Users\Alan Szymczyk\source\repos\Counter\Resources\Raw\CounterStorage.xml";
+		// Dla lapka:
+		//public static string filePath = @"C:\Users\Alan Szymczyk\source\repos\Counter\Resources\Raw\CounterStorage.xml";
+
+		// Dla kompa:
+		public static string filePath = @"C:\Users\Komputer PC\Desktop\Programowanir\C#\Project\Counter\Resources\Raw\CounterStorage.xml";
 		public ObservableCollection<Counter> Counters { get; set; } = new();
 
 		public AllCounters() =>
@@ -52,13 +57,6 @@ namespace Counter.Models
 					counter = new Counter();
                 }
 			}
-
-			/*using (FileStream fs = new(filePath, FileMode.Open))
-			{
-				XmlSerializer serializer = new(typeof(Counter));
-				Counters = serializer.Deserialize(fs) as ObservableCollection<Counter>;
-            }*/
         }
-
 	}
 }

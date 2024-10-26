@@ -13,7 +13,17 @@ public partial class CounterPage : ContentPage
 
 	public async void Add_Clicked(object sender, EventArgs e)
 	{
-		var doc = new XDocument();
+		var doc = XDocument.Load(Models.AllCounters.filePath);
+
+		foreach(var node in doc.Descendants())
+		{
+			if(node.Name.ToString() == "CounterName" && node.Value == CounterNameEditor.Text)
+			{
+				ErrorLabel.Text = "Counter name already in use!";
+				return;
+			}
+		}
+
 		var counter = new Models.Counter()
 		{
 			CounterName = CounterNameEditor.Text,
@@ -21,19 +31,14 @@ public partial class CounterPage : ContentPage
 			CounterColor = ColorPicker.SelectedItem.ToString(),
 			CounterValue = int.Parse(CounterDefaultEditor.Text),
 		};
-		/*using (FileStream fs = new FileStream(Models.AllCounters.filePath, FileMode.OpenOrCreate))
-        {
-            XmlSerializer serializer = new (typeof(Models.Counter));
-            serializer.Serialize(fs, counter);
-        }*/
+
 		var count = new XElement("Counter", [
 			new XElement("CounterName", counter.CounterName),
 			new XElement("CounterValue", counter.CounterValue),
 			new XElement("CounterColor", counter.CounterColor),
-			new XElement("CounterDefaultValue", counter.CounterDefaultValue)
+			new XElement("CounterDefaultValue", counter.CounterDefaultValue),
 		]);
 
-		doc = XDocument.Load(Models.AllCounters.filePath);
 		doc.Element("Counters").Add(count);
 		doc.Save(Models.AllCounters.filePath);	
 		await Shell.Current.GoToAsync("..");
