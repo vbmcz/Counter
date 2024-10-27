@@ -51,7 +51,7 @@ namespace Counter.Models
 					default:
 						break;
 				}
-				if(counter.CounterDefaultValue != null)
+				if(counter.CounterColor != "")
                 {
 					Counters.Add(counter);
 					counter = new Counter();

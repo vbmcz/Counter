@@ -1,15 +1,2 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Counters>
-  <Counter>
-    <CounterName>Counter1</CounterName>
-    <CounterValue>0</CounterValue>
-    <CounterColor>Red</CounterColor>
-    <CounterDefaultValue>0</CounterDefaultValue>
-  </Counter>
-  <Counter>
-    <CounterName>Counter2</CounterName>
-    <CounterValue>0</CounterValue>
-    <CounterColor>White</CounterColor>
-    <CounterDefaultValue>0</CounterDefaultValue>
-  </Counter>
-</Counters>
+<Counters />

@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\Komputer PC\Desktop\Programowanir\C#\Project\Counter\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-26T21:20:08.200</Modified>
+      <Modified>2024-10-27T09:20:37.138</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Komputer PC\Desktop\Programowanir\C#\Project\Counter\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Counter.dll">
       <PackagePath>Counter.dll</PackagePath>
-      <Modified>2024-10-26T21:20:08.013</Modified>
+      <Modified>2024-10-27T09:20:36.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Komputer PC\Desktop\Programowanir\C#\Project\Counter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Counter.exe</PackagePath>
-      <Modified>2024-10-26T21:20:08.016</Modified>
+      <Modified>2024-10-27T09:20:36.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Komputer PC\Desktop\Programowanir\C#\Project\Counter\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,7 +55,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Komputer PC\Desktop\Programowanir\C#\Project\Counter\Resources\Raw\CounterStorage.xml">
       <PackagePath>CounterStorage.xml</PackagePath>
-      <Modified>2024-10-26T20:55:31.864</Modified>
+      <Modified>2024-10-27T09:16:24.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Komputer PC\Desktop\Programowanir\C#\Project\Counter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
