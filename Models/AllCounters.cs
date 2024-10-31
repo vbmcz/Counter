@@ -14,10 +14,10 @@ namespace Counter.Models
 	internal class AllCounters : ContentPage
 	{
 		// Dla lapka:
-		//public static string filePath = @"C:\Users\Alan Szymczyk\source\repos\Counter\Resources\Raw\CounterStorage.xml";
+		public static string filePath = @"C:\Users\Alan Szymczyk\source\repos\Counter\Resources\Raw\CounterStorage.xml";
 
 		// Dla kompa:
-		public static string filePath = @"C:\Users\Komputer PC\Desktop\Programowanir\C#\Project\Counter\Resources\Raw\CounterStorage.xml";
+		//public static string filePath = @"C:\Users\Komputer PC\Desktop\Programowanir\C#\Project\Counter\Resources\Raw\CounterStorage.xml";
 		public ObservableCollection<Counter> Counters { get; set; } = new();
 
 		public AllCounters() =>

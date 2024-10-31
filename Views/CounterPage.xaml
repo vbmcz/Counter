@@ -25,7 +25,7 @@
                 <x:Array Type="{x:Type x:String}">
                     <x:String>White</x:String>
                     <x:String>Yellow</x:String>
-                    <x:String>Blue</x:String>
+                    <x:String>Pink</x:String>
                     <x:String>Red</x:String>
                     <x:String>CadetBlue</x:String>
                 </x:Array>

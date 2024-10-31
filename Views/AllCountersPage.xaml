@@ -19,6 +19,7 @@
             <DataTemplate>
 
                 <StackLayout 
+                    WidthRequest="600"
                     BackgroundColor="{Binding CounterColor}">
                     <Label Text="{Binding CounterName}" FontSize="25" HorizontalTextAlignment="Center" TextColor="Black"/>
                     <Label Text="{Binding CounterValue}" FontSize="22" TextColor="Black" HorizontalTextAlignment="Center"/>
